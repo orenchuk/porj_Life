@@ -1,15 +1,14 @@
-//
-//  main.cpp
-//  LifeSimulator
-//
-//  Created by Alexey Furman on 19.05.16.
-//  Copyright © 2016 Alexey Furman. All rights reserved.
-//
-
+#include "Random.hpp"
+#include "Life.hpp"
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    Random Person;
+    Life Life;
+    Person.setlife(Life.chooseSchoolLevel(Person.getArrayOfParametrs()));
+    Person.setlife(Life.chooseSchoolFavouriteSubject(Person.getArrayOfParametrs()));
+    
+    
+    
+    std::cout<<Person.getLife();
 }
