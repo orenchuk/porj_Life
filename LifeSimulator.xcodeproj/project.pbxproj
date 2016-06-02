@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7D67E6AE1CEE0587002DF867 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D67E6AD1CEE0587002DF867 /* main.cpp */; };
 		7D67E6B91CEE163F002DF867 /* Life.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D67E6B71CEE163F002DF867 /* Life.cpp */; };
-		7D67E6BF1CEE1E48002DF867 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D67E6BD1CEE1E48002DF867 /* Random.cpp */; };
+		7D67E6BF1CEE1E48002DF867 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D67E6BD1CEE1E48002DF867 /* Person.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +29,8 @@
 		7D67E6AD1CEE0587002DF867 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7D67E6B71CEE163F002DF867 /* Life.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Life.cpp; sourceTree = "<group>"; };
 		7D67E6B81CEE163F002DF867 /* Life.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Life.hpp; sourceTree = "<group>"; };
-		7D67E6BD1CEE1E48002DF867 /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
-		7D67E6BE1CEE1E48002DF867 /* Random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
+		7D67E6BD1CEE1E48002DF867 /* Person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		7D67E6BE1CEE1E48002DF867 /* Person.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 			children = (
 				7D67E6B71CEE163F002DF867 /* Life.cpp */,
 				7D67E6B81CEE163F002DF867 /* Life.hpp */,
-				7D67E6BD1CEE1E48002DF867 /* Random.cpp */,
-				7D67E6BE1CEE1E48002DF867 /* Random.hpp */,
+				7D67E6BD1CEE1E48002DF867 /* Person.cpp */,
+				7D67E6BE1CEE1E48002DF867 /* Person.hpp */,
 				7D67E6AD1CEE0587002DF867 /* main.cpp */,
 			);
 			path = LifeSimulator;
@@ -130,7 +130,7 @@
 			files = (
 				7D67E6AE1CEE0587002DF867 /* main.cpp in Sources */,
 				7D67E6B91CEE163F002DF867 /* Life.cpp in Sources */,
-				7D67E6BF1CEE1E48002DF867 /* Random.cpp in Sources */,
+				7D67E6BF1CEE1E48002DF867 /* Person.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

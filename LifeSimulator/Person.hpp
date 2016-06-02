@@ -4,18 +4,18 @@
 #include <iostream>
 #include <map>
 
-class Random {
+class Person {
     std::map <std::string,int> mapOfParametrs;
     int *arrayOfParametrs;
     std::string life;
     
     
 public:
-    Random();
+    Person();
     int* getArrayOfParametrs(){return arrayOfParametrs;};
     void setlife(std::string);
     std::string getLife () {return life;};
-//    ~Person();
+    ~Person();
 };
 
 
