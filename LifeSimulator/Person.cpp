@@ -23,9 +23,6 @@ Person::Person()
     
 }
 
-
-
-
 void Person::setlife(string n)
 {
     life+=n+"\n";
