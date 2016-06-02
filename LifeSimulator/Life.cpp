@@ -5,7 +5,7 @@
 
 
 Life::Life() {
-    string a[6]={"Sport.txt","Dance.txt","Extreme.txt","Active.txt","Needlework.txt"};
+    /*string a[6]={"Sport.txt","Dance.txt","Extreme.txt","Active.txt","Needlework.txt"};
     for (int j=0; j<=6; j++) {
         ifstream file(a[j]);
         for (int i=0; i<=8; i++) {
@@ -15,7 +15,7 @@ Life::Life() {
             }
         }
         file.close();
-    }
+    }*/
 };
 
 string Life::chooseSchoolLevel(int* param){
@@ -59,3 +59,23 @@ bool Life::desigion(int p1,int r1, int p2, int r2){
         return true;
     } else return false;
 };
+
+string Life::chooseUniversityType(int* param)
+{
+    count = rand()%9;
+    
+    if (param[3] < 3 && param[0] < 2)
+    {
+        return "Didn't graduate any university";
+    } else
+        return "Graduated the Faculty of " + universityTypes[count][0] + "\n" + universityTypes[count][rand()%3+1] + " specialization";
+}
+
+string Life::chooseJob(int* param)
+{
+    if (param[0] < 2)
+    {
+        return "Worked in McDonald's";
+    } else
+        return "Worked as " + jobs[count][rand()%4];
+}

@@ -13,8 +13,9 @@ int main(int argc, const char * argv[]) {
     Person.setlife(Life.chooseSchoolLevel(Person.getArrayOfParametrs()));
     Person.setlife(Life.chooseSchoolFavouriteSubject(Person.getArrayOfParametrs()));
     Person.setlife(Life.chooseSocietyPosition(Person.getArrayOfParametrs()));
+    Person.setlife(Life.chooseUniversityType(Person.getArrayOfParametrs()));
+    Person.setlife(Life.chooseJob(Person.getArrayOfParametrs()));
     
     std::cout<<Person.getLife();
-    
-    
+
 }
